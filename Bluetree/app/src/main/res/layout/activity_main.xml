@@ -9,8 +9,8 @@
         android:id="@+id/actualizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
         android:backgroundTint="#605BFF"
         android:fontFamily="@font/rubik_medium"
         android:onClick="actualizarAccion"
@@ -24,14 +24,25 @@
         android:id="@+id/permitirBlu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="64dp"
         android:backgroundTint="#605BFF"
         android:fontFamily="@font/rubik_medium"
         android:onClick="enableBluetooth"
         android:text="@string/permitir_bluetooth"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="15dp"
+        android:text="👥 Grupos disponibles"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
